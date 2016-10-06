@@ -1,0 +1,25 @@
+{
+  "name": "discord-ffxiv-news",
+  "version": "1.0.0",
+  "description": "FFXIV Lodestone news to Discord Webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CKing@github.com/CKing/discord-ffxiv-news.git"
+  },
+  "author": "Christopher König <criss@paars.de>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/CKing/discord-ffxiv-news/issues"
+  },
+  "homepage": "https://github.com/CKing/discord-ffxiv-news#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cheerio": "^0.22.0",
+    "nedb": "^1.8.0",
+    "node-fetch": "^1.6.3"
+  }
+}
